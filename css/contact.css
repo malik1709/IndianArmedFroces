@@ -1,0 +1,58 @@
+/****************** contact us starts ****************************/
+
+.contactus {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contactus div h1 {
+  margin: 2%;
+  padding: 2%;
+  font-size: 200%;
+  color: #50d1c0;
+  font-family: cursive;
+}
+
+.form-group {
+  margin: 1%;
+  padding: 1%;
+}
+
+.form-control {
+  padding: 1%;
+  width: 50%;
+  border: 0;
+  border-radius: 10px;
+}
+
+.form-button button {
+  border: 1px solid #50d1c0;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #50d1c0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  background: transparent;
+}
+
+.form-button button:hover {
+  color: #24cfb8;
+}
+
+.form:hover .form-button button {
+  background: #fff;
+  color: #50d1c0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+::placeholder {
+  font-size: 0.85rem;
+}
+
+/****************** contact us ends ****************************/

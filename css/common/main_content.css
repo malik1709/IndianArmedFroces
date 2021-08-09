@@ -1,0 +1,39 @@
+.main-content {
+  padding: 30px 100px;
+}
+
+.main-content-nav a:hover {
+  color: rgb(43, 226, 83);
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  color: brown;
+  padding: 30px;
+  text-align: center;
+}
+
+.content h3 {
+  color: brown;
+  padding: 20px 20px 20px 0;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Media Queries */
+
+@media only screen and (min-width: 1025px) {
+  .main-content-nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .main-content {
+    padding: 10% 50px;
+  }
+}

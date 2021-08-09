@@ -1,0 +1,147 @@
+/* footer styles */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  background-color: black;
+}
+
+.footer-contact {
+  color: rgb(238, 238, 73);
+  padding: 50px 0;
+  text-align: left;
+}
+
+footer h3 {
+  font-size: 110%;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.footer-contact,
+.footer-navigation,
+.footer-newsletter {
+  text-align: center;
+}
+
+.footer-reach a {
+  color: rgb(238, 238, 73);
+}
+
+.footer-reach a:hover {
+  color: white;
+}
+
+.conatct-reach-info {
+  padding: 10px;
+}
+
+.footer-navigation {
+  padding: 50px 0;
+}
+
+.footer-navigation ul li {
+  padding: 15px 0;
+}
+
+.footer-navigation ul li a {
+  color: rgb(238, 238, 73);
+}
+
+.footer-navigation ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.footer-newsletter {
+  color: rgb(238, 238, 73);
+  padding: 50px 0;
+}
+
+.footer-newsletter form {
+  margin: 50px;
+}
+
+form > input {
+  margin-right: -5px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+.newsletter-submit-button {
+  color: white;
+  border: 0;
+  background-color: rgb(33, 149, 226);
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+}
+
+.newsletter-submit-button:hover {
+  cursor: pointer;
+  color: rgb(33, 149, 226);
+  background-color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  font-size: 80%;
+  text-align: center;
+}
+/* ------------------------------------------------------------------------------ */
+
+/* Media Queries */
+
+@media only screen and (min-width: 1024px) {
+  .column {
+    float: left;
+    width: 33.33%;
+    min-width: 300px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1270px) {
+  .news-letter {
+    padding: 10px;
+    display: block;
+  }
+
+  form > input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .newsletter-submit-button {
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .news-letter {
+    padding: 10px;
+    display: block;
+  }
+
+  form > input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .newsletter-submit-button {
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,18 @@
+.main-content {
+  padding: 50px 100px;
+}
+
+.main-content h2,
+.main-content h3 {
+  color: rgb(63, 36, 36);
+  padding: 30px;
+  text-align: center;
+}
+
+.main-content h2 {
+  font-size: 50px;
+}
+
+.main-content h3 {
+  font-size: 30px;
+}

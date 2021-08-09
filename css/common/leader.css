@@ -1,0 +1,22 @@
+.leader-img img {
+  max-width: 100%;
+  max-height: auto;
+  width: 250px;
+  height: 300px;
+  border-radius: 2%;
+  margin: 2%;
+  position: relative;
+  vertical-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  object-fit: cover;
+}
+
+.leader-img {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}

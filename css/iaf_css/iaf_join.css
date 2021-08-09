@@ -1,0 +1,24 @@
+content {
+  text-align: center !important;
+}
+.eligibilty-table {
+  text-align: center;
+  border: 1px rgb(97, 44, 221) dashed;
+  text-align: center;
+  color: rgb(90, 88, 88);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.eligibilty-table td {
+  font-size: 17px !important;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(97, 44, 221);
+}
+
+td {
+  padding: 10px;
+}

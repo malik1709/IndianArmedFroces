@@ -1,0 +1,6 @@
+summary:hover {
+  cursor: pointer;
+}
+summary h3:hover {
+  color: rgb(72, 255, 0);
+}
